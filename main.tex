@@ -10,6 +10,7 @@
 \usepackage{titlesec}
 \usepackage{comment}
 \usepackage{xcolor}
+\usepackage[numbers,sort&compress]{natbib}
 \usepackage{multicol}
 
 
@@ -60,7 +61,9 @@
 % ADD SECTIONS HERE
 \subfile{sections/01-abstract}
 \subfile{sections/02-introduction}
-\subfile{sections/08-references}
+\bibliographystyle{unsrtnat}
+\normalsize
+\bibliography{sections/references.bib}
 
 \end{document}
 %%%%%%%%%%%%%%%%%%%%%%%%DOCUMENT CLOSURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
